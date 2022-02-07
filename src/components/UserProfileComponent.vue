@@ -3,6 +3,7 @@
 //
 //  Created by Kalila L. on Dec 20 2020.
 //  Copyright 2020 Vircadia contributors.
+//  Copyright 2022 Overte e.V.
 //
 //  Distributed under the Apache License, Version 2.0.
 //  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
@@ -581,13 +582,13 @@ export default {
                     if (result.data.account.images.tiny) {
                         vue_this.images_tiny = result.data.account.images.tiny;
                     } else {
-                        vue_this.images_tiny = '../assets/vircadia-icon-256.png';
+                        vue_this.images_tiny = '../assets/brand-icon-256.png';
                     }
 
                     if (result.data.account.images.thumbnail) {
                         vue_this.images_thumbnail = result.data.account.images.thumbnail;
                     } else {
-                        vue_this.images_thumbnail = '../assets/vircadia-icon-256.png';
+                        vue_this.images_thumbnail = '../assets/brand-icon-256.png';
                     }
                 })
                 .fail(function (result) {
