@@ -576,19 +576,19 @@ export default {
                     if (result.data.account.images.hero) {
                         vue_this.images_hero = result.data.account.images.hero;
                     } else {
-                        vue_this.images_hero = '../assets/1920_bar.png';
+                        vue_this.images_hero = 'assets/1920_bar.png';
                     }
 
                     if (result.data.account.images.tiny) {
                         vue_this.images_tiny = result.data.account.images.tiny;
                     } else {
-                        vue_this.images_tiny = '../assets/brand-icon-256.png';
+                        vue_this.images_tiny = 'assets/brand-icon-256.png';
                     }
 
                     if (result.data.account.images.thumbnail) {
                         vue_this.images_thumbnail = result.data.account.images.thumbnail;
                     } else {
-                        vue_this.images_thumbnail = '../assets/brand-icon-256.png';
+                        vue_this.images_thumbnail = 'assets/brand-icon-256.png';
                     }
                 })
                 .fail(function (result) {

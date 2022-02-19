@@ -16,12 +16,12 @@
             app
         >
             <v-list-item
-                href="https://vircadia.com/"
+                href="https://overte.org/"
             >
                 <v-list-item-icon>
                     <v-avatar>
                         <img
-                            src="/assets/brand-icon-256.png"
+                            src="assets/brand-icon-256.png"
                         >
                     </v-avatar>
                 </v-list-item-icon>
@@ -69,7 +69,7 @@
             v-show="showAppBar"
             app
             color="primary"
-            src="/assets/1920_bar.png"
+            src="assets/1920_bar.png"
             class="white--text"
         >
             <v-app-bar-nav-icon

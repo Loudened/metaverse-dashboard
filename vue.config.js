@@ -2,15 +2,18 @@
 process.env.VUE_APP_VERSION = require('./package.json').version
 
 module.exports = {
-    publicPath: process.env.BASE_URL,
-    // publicPath: "./",
-    // assetsDir: "./",
+    //publicPath: process.env.BASE_URL,
+    publicPath: "/dashboard/",
+    assetsDir: "./dashboard/",
     transpileDependencies: [
         'vuetify'
     ],
     configureWebpack: {
         devServer: {
-            headers: { 'Access-Control-Allow-Origin': '*' }
-        }
+            headers: { 'Access-Control-Allow-Origin': '*' },
+            host: 'overte.org',
+            port: 8080,
+            public: 'overte.org:8080',
+        },
     }
 }

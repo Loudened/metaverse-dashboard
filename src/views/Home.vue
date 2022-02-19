@@ -59,7 +59,7 @@
                         </template>
                         <span>
                             <v-avatar color="pink" size="72" class="mr-2">
-                                <v-img src="/assets/231352681.png"></v-img>
+                                <v-img src="assets/231352681.png"></v-img>
                             </v-avatar>
                             I hope you are having a wonderful day, {{ $store.state.account.username }}!
                         </span>

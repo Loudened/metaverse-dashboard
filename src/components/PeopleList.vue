@@ -234,7 +234,7 @@ export default {
                         locationData: item.location,
                         accountID: item.accountId,
                         thumbnail: item.images.thumbnail ? item.images.thumbnail : '',
-                        hero: item.images.hero ? item.images.hero : '../assets/1920_bar.png'
+                        hero: item.images.hero ? item.images.hero : 'assets/1920_bar.png'
                     }
                 );
             });
