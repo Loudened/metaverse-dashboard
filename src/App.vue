@@ -27,7 +27,7 @@
                 </v-list-item-icon>
 
                 <v-list-item-content>
-                    <v-list-item-title>Vircadia Home</v-list-item-title>
+                    <v-list-item-title>Overte Home</v-list-item-title>
                 </v-list-item-content>
             </v-list-item>
 
