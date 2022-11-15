@@ -3,6 +3,7 @@
 //
 //  Created by Kalila L. on 2 Jul 2020.
 //  Copyright 2020 Vircadia contributors.
+//  Modified for Overte. 2022 Overte e.V.
 //
 //  Distributed under the Apache License, Version 2.0.
 //  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
@@ -29,11 +30,9 @@ export default new Vuex.Store({
         },
         initialized: false,
         metaverseConfig: { // Prefilled with initial values
-            name: '',
-            nickname: '',
-            // server: 'https://metaverse.bluestuff.org:9400', // This needs to at least be pre-filled in order to get all other config information.
-            // server: 'https://metaverse.vircadia.com/live', // This needs to at least be pre-filled in order to get all other config information.
-            server: 'https://overte.org/mvs', // This needs to at least be pre-filled in order to get all other config information.
+            name: 'Overte',
+            nickname: 'Overte',
+            server: 'https://mv.overte.org/server', // This needs to at least be pre-filled in order to get all other config information.
             iceServer: '',
             serverVersion: ''
         },

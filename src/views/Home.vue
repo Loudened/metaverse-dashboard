@@ -40,32 +40,6 @@
                     <APIStats></APIStats>
                 </v-col>
             </v-row>
-            <v-row
-                align="center"
-                justify="center"
-            >
-                <v-col class="text-center">
-                    <v-tooltip top>
-                        <template v-slot:activator="{ on }">
-                                <v-btn
-                                    :href="source"
-                                    icon
-                                    large
-                                    target="_blank"
-                                    v-on="on"
-                                >
-                                    <v-icon large>mdi-heart</v-icon>
-                                </v-btn>
-                        </template>
-                        <span>
-                            <v-avatar color="pink" size="72" class="mr-2">
-                                <v-img src="assets/231352681.png"></v-img>
-                            </v-avatar>
-                            I hope you are having a wonderful day, {{ $store.state.account.username }}!
-                        </span>
-                    </v-tooltip>
-                </v-col>
-            </v-row>
         </v-container>
     </v-main>
 </v-app>
