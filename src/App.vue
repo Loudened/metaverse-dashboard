@@ -22,7 +22,7 @@
                     <v-avatar>
                         <img
                             src="assets/brand-icon-256.png"
-                        >
+                         alt="Overte Icon">
                     </v-avatar>
                 </v-list-item-icon>
 
@@ -129,7 +129,7 @@
         >
             <span class="white--text">Overte Dashboard {{ $store.state.globalConsts.DASHBOARD_VERSION }} | Overte | <a class="white--text" href="https://overte.org/#contact">Contact</a></span>
             <v-spacer></v-spacer>
-            <span class="white--text">Metaverse: <b>{{ $store.state.metaverseConfig.server }}</b></span>
+            <span class="white--text">Directory Services: <b>{{ $store.state.metaverseConfig.server }}</b></span>
             <span v-show="$store.state.metaverseConfig.serverVersion" class="white--text ml-4">Version: {{ $store.state.metaverseConfig.serverVersion["npm-package-version"] }}</span>
         </v-footer>
     </v-app>
