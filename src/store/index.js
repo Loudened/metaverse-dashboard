@@ -32,7 +32,7 @@ export default new Vuex.Store({
         metaverseConfig: { // Prefilled with initial values
             name: 'Overte',
             nickname: 'Overte',
-            server: 'https://mv.overte.org/server', // This needs to at least be pre-filled in order to get all other config information.
+            server: 'https://world.loudened.com/', // This needs to at least be pre-filled in order to get all other config information.
             iceServer: '',
             serverVersion: ''
         },

@@ -10,9 +10,9 @@ module.exports = {
     configureWebpack: {
         devServer: {
             headers: { 'Access-Control-Allow-Origin': '*' },
-            host: 'overte.org',
+            host: '127.0.0.1',
             port: 8080,
-            public: 'overte.org:8080'
+            public: '127.0.0.1:8080'
         }
     }
 }
