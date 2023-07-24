@@ -6,5 +6,9 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    environment:
+      - VUE_APP_METAVERSE_URL=http://world.loudened.com:9400
+      - VUE_APP_METAVERSE_NAME="Loudened"
+      - VUE_APP_METAVERSE_NICKNAME="Loudened"
     ports:
       - 3000:3000

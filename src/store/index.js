@@ -30,9 +30,9 @@ export default new Vuex.Store({
         },
         initialized: false,
         metaverseConfig: { // Prefilled with initial values
-            name: 'Overte',
-            nickname: 'Overte',
-            server: 'https://world.loudened.com/', // This needs to at least be pre-filled in order to get all other config information.
+            name: process.env.VUE_APP_METAVERSE_NAME ?? 'My Metaverse',
+            nickname: process.env.VUE_APP_METAVERSE_NICKNAME && 'My Metaverse',
+            server: process.env.VUE_APP_METAVERSE_URL ?? 'http://localhost:9400', // This needs to at least be pre-filled in order to get all other config information.
             iceServer: '',
             serverVersion: ''
         },
