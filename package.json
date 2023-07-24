@@ -5,7 +5,10 @@
     "license": "Apache License, Version 2.0",
     "scripts": {
         "install-packages": "npm i",
-        "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+        "prestart": "npm run build",
+        "start": "npm run serve",
+        "serve": "npx serve dist/",
+        "dev": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
         "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
         "lint": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service lint"
     },
@@ -14,6 +17,7 @@
         "core-js": "^3.10.0",
         "jquery": "^3.6.0",
         "roboto-fontface": "*",
+        "serve": "^14.2.0",
         "vue": "^2.6.12",
         "vue-router": "^3.5.1",
         "vuetify": "^2.6.1",
