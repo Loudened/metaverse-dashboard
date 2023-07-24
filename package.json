@@ -1,7 +1,8 @@
 {
-    "name": "iamus-dashboard",
-    "version": "1.3.0",
+    "name": "metaverse-dashboard",
+    "version": "1.0.0",
     "private": true,
+    "license": "Apache License, Version 2.0",
     "scripts": {
         "install-packages": "npm i",
         "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
