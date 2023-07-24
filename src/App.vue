@@ -16,7 +16,7 @@
             app
         >
             <v-list-item
-                href="https://overte.org/"
+                href="https://localhost/"
             >
                 <v-list-item-icon>
                     <v-avatar>
@@ -127,7 +127,7 @@
             color="vircadiaNavy"
             app
         >
-            <span class="white--text">Overte Dashboard {{ $store.state.globalConsts.DASHBOARD_VERSION }} | Overte | <a class="white--text" href="https://overte.org/#contact">Contact</a></span>
+            <span class="white--text">Overte Dashboard {{ $store.state.globalConsts.DASHBOARD_VERSION }} | Overte | <a class="white--text" href="https://localhost/#contact">Contact</a></span>
             <v-spacer></v-spacer>
             <span class="white--text">Directory Services: <b>{{ $store.state.metaverseConfig.server }}</b></span>
             <span v-show="$store.state.metaverseConfig.serverVersion" class="white--text ml-4">Version: {{ $store.state.metaverseConfig.serverVersion["npm-package-version"] }}</span>
