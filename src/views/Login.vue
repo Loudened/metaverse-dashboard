@@ -201,8 +201,8 @@ export default {
         // END REGISTER BOX
         currentTab: null,
         metaverseServerSettingExpansion: false,
-        metaverseServerSetting: null,
-        defaultMetaverseServer: ['http://127.0.0.1:9400']
+        metaverseServerSetting: [process.env.VUE_APP_METAVERSE_URL ?? 'http://localhost:9400'],
+        defaultMetaverseServer: [process.env.VUE_APP_METAVERSE_URL ?? 'http://localhost:9400']
     }),
     computed: {
         metaverseServerStore: {
